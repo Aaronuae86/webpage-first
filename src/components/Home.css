@@ -1,0 +1,29 @@
+.home {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.anime-list {
+  display: flex;
+
+  justify-content: center;
+  gap: 40px;
+  font-size: 1rem;
+}
+
+.anime {
+  border-style: groove;
+  border-width: 1px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.anime:hover {
+  transform: scale(1.05);
+}
+
+.anime img {
+  height: 300px;
+  object-fit: cover;
+}

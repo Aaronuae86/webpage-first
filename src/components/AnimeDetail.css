@@ -1,0 +1,73 @@
+.anime-detail {
+  text-align: center;
+
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.anime-detail p {
+  max-width: 800px; /* Adjust the max-width to your desired dimension */
+  margin: 0 auto; /* Center the paragraph horizontally */
+  padding: 10px; /* Add padding inside the paragraph */
+  text-align: justify; /* Optional: Justify text alignment */
+  line-height: 1.6; /* Optional: Adjust line height for better readability */
+}
+.anime-detail h2 {
+  padding-top: 100px;
+}
+.character-list {
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character {
+  position: relative;
+  cursor: pointer;
+}
+
+.character img {
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.character:hover img {
+  transform: scale(1.05);
+}
+
+.status-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.status-button:hover + .status,
+.status-button:focus + .status {
+  display: block;
+}
+
+.status.hidden {
+  display: none;
+  font-size: 2rem;
+  color: red;
+}
+
+.status {
+  display: block;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+  z-index: 0;
+}
+/* Style for the status text */
