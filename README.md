@@ -21,8 +21,12 @@ Vanilla CSS (for styling)
 
 <h3>How It Works</h3>
 
-Homepage: Displays the top three animes with their images.
-Navigation: Clicking an anime image leads to its detail page.
-Detail Page: Shows a synopsis and character list with images.
-Spoiler Feature: Initially, character statuses are hidden and labeled "SPOILER! Click to reveal." Clicking reveals the character's life status.
+<h4>Homepage:</h4> Displays the top three animes with their images.
+<h4>Navigation:</h4> Clicking an anime image leads to its detail page.
+<h4>Detail Page:</h4> Shows a synopsis and character list with images.
+<h4>Spoiler Feature:</h4> Initially, character statuses are hidden and labeled "SPOILER! Click to reveal." Clicking reveals the character's life status.
 
+<h3>FUTURE DIRECTIONS OF THIS PROJECT</h3>
+-Add a search/filter function for easier navigation.
+-Implement dark mode for better user experience.
+-Improve mobile responsiveness.
