@@ -27,6 +27,9 @@ Vanilla CSS (for styling)
 <h4>Spoiler Feature:</h4> Initially, character statuses are hidden and labeled "SPOILER! Click to reveal." Clicking reveals the character's life status.
 
 <h3>FUTURE DIRECTIONS OF THIS PROJECT</h3>
+
 -Add a search/filter function for easier navigation.
+
 -Implement dark mode for better user experience.
+
 -Improve mobile responsiveness.
