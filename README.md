@@ -9,9 +9,13 @@ This is a React-based website showcasing the three best animes: EightySix, Re:Ze
 <h3>Features</h3>
 
 Homepage: Displays anime images and names.
+
 Anime Detail Page: Shows a synopsis and three characters for each anime.
+
 Character Status Spoiler System: Initially hidden, revealed upon click.
+
 Responsive Design: Optimized for different screen sizes.
+
 Smooth Hover Effects: Animations on character and anime images.
 
 <h3>Technologies Used:</h3>
